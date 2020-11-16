@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Paint</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../Paint/style.css"/>
+  <script rel="preload" as="script" crossorigin="anonymous" src="http://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+</head>
+
+<body>  
+  <div class="control">    
+    
+    <div class="color-picker" style="background: red;"></div>
+    <div class="color-picker" style="background: yellow;"></div>
+    <div class="color-picker" style="background: blue;"></div>
+    <div class="color-picker" style="background: violet;"></div>
+    <div class="color-picker" style="background: green;"></div>
+    <div class="color-picker" style="background: black;"></div>    
+
+
+    <canvas id="draw" width="600px" height="600px"></canvas>
+  </div>
+  <button id="btn_clear">Clear</button>
+</body>
+<script src="../Paint/script.js"></script>
+</html>
